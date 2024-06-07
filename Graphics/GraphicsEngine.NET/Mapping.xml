@@ -101,14 +101,17 @@
 		<bind from="InstanceMatrix" to="System.Numerics.Matrix3x4" />
 		<bind from="IObject" to="Diligent.IObject" />
 
-		<bind from="VkBuffer" to="System.IntPtr" />
-		<bind from="VkImage" to="System.IntPtr" />
+		<!--VK_DEFINE_HANDLE-->
 		<bind from="VkInstance" to="System.IntPtr" />
 		<bind from="VkPhysicalDevice" to="System.IntPtr" />
 		<bind from="VkDevice" to="System.IntPtr" />
 		<bind from="VkQueue" to="System.IntPtr" />
-		<bind from="VkSemaphore" to="System.IntPtr" />
 		<bind from="VkCommandBuffer" to="System.IntPtr" />
+
+		<!--VK_DEFINE_NON_DISPATCHABLE_HANDLE-->
+		<bind from="VkBuffer" to="System.IntPtr" />
+		<bind from="VkImage" to="System.IntPtr" />
+		<bind from="VkSemaphore" to="System.IntPtr" />
 		<bind from="VkFence" to="System.IntPtr" />
 		<bind from="VkDeviceMemory" to="System.IntPtr" />
 		<bind from="VkEvent" to="System.IntPtr" />
@@ -126,7 +129,30 @@
 		<bind from="VkDescriptorPool" to="System.IntPtr" />
 		<bind from="VkFramebuffer" to="System.IntPtr" />
 		<bind from="VkCommandPool" to="System.IntPtr" />
-        <bind from="VkAccelerationStructureKHR" to="System.IntPtr" />
+		<bind from="VkSamplerYcbcrConversion" to="System.IntPtr" />
+		<bind from="VkDescriptorUpdateTemplate" to="System.IntPtr" />
+		<bind from="VkPrivateDataSlot" to="System.IntPtr" />
+		<bind from="VkSurfaceKHR" to="System.IntPtr" />
+		<bind from="VkSwapchainKHR" to="System.IntPtr" />
+		<bind from="VkDisplayKHR" to="System.IntPtr" />
+		<bind from="VkDisplayModeKHR" to="System.IntPtr" />
+		<bind from="VkVideoSessionKHR" to="System.IntPtr" />
+		<bind from="VkVideoSessionParametersKHR" to="System.IntPtr" />
+		<bind from="VkDeferredOperationKHR" to="System.IntPtr" />
+		<bind from="VkDebugReportCallbackEXT" to="System.IntPtr" />
+		<bind from="VkCuModuleNVX" to="System.IntPtr" />
+		<bind from="VkCuFunctionNVX" to="System.IntPtr" />
+		<bind from="VkDebugUtilsMessengerEXT" to="System.IntPtr" />
+		<bind from="VkValidationCacheEXT" to="System.IntPtr" />
+		<bind from="VkAccelerationStructureNV" to="System.IntPtr" />
+		<bind from="VkPerformanceConfigurationINTEL" to="System.IntPtr" />
+		<bind from="VkIndirectCommandsLayoutNV" to="System.IntPtr" />
+		<bind from="VkCudaModuleNV" to="System.IntPtr" />
+		<bind from="VkCudaFunctionNV" to="System.IntPtr" />
+		<bind from="VkAccelerationStructureKHR" to="System.IntPtr" />
+		<bind from="VkMicromapEXT" to="System.IntPtr" />
+		<bind from="VkOpticalFlowSessionNV" to="System.IntPtr" />
+		<bind from="VkShaderEXT" to="System.IntPtr" />
 	</bindings>
 
 	<naming>
