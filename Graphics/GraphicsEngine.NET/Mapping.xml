@@ -125,6 +125,7 @@
 		<bind from="VkDescriptorPool" to="System.IntPtr" />
 		<bind from="VkFramebuffer" to="System.IntPtr" />
 		<bind from="VkCommandPool" to="System.IntPtr" />
+        <bind from="VkAccelerationStructureKHR" to="System.IntPtr" />
 	</bindings>
 
 	<naming>
@@ -275,11 +276,6 @@
 		<map param="IRenderDevice::CreateBuffer::pBuffData" attribute="optional" default="null"/>
 		<map param="IRenderDevice::CreateTexture::pData" attribute="optional" default="null"/>
 		<map param="IRenderDevice::Create(.+)PipelineState::PSOCreateInfo" name="createInfo"/>
-
-		<!--Diligent::IRenderDeviceVk-->
-		<remove method="IRenderDeviceVk::CreateBLASFromVulkanResource"/>
-		<remove method="IRenderDeviceVk::CreateTLASFromVulkanResource"/>
-		<remove method="IRenderDeviceVk::CreateFenceFromVulkanResource"/>
 
 		<!--Diligent::IDeviceContext-->
 		<map method="IDeviceContext::SetVertexBuffers" visibility="private"/>
