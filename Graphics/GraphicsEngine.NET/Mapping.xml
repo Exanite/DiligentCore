@@ -64,7 +64,7 @@
 	<include-dir>$(THIS_CONFIG_PATH)/../GraphicsEngineD3D12/interface/</include-dir>
 	<include file="EngineFactoryD3D12.h" namespace="Diligent" attach="true"/>
 
-    <include-dir>$(THIS_CONFIG_PATH)/../../ThirdParty/Vulkan-Headers/include/</include-dir>
+	<include-dir>$(THIS_CONFIG_PATH)/../../ThirdParty/Vulkan-Headers/include/</include-dir>
 	<include file="vulkan/vulkan_core.h" attach="false"/>
 
 	<include-dir>$(THIS_CONFIG_PATH)/../GraphicsEngineVulkan/interface/</include-dir>
@@ -355,7 +355,7 @@
 		<map method="IQuery::GetData" visibility="private"/>
 		<map param="IQuery::GetData::pData" type="void" keep-pointers="true"/>
 
-        <!--Diligent::ICommandQueueVk-->
+		<!--Diligent::ICommandQueueVk-->
 		<remove method="ICommandQueueVk::Submit"/>
 		<remove method="ICommandQueueVk::Present"/>
 		<remove method="ICommandQueueVk::BindSparse"/>
