@@ -77,18 +77,18 @@
 	<include file="EngineFactoryVk.h" namespace="Diligent" attach="true"/>
 	<include file="FenceVk.h" namespace="Diligent" attach="true"/>
 	<include file="FramebufferVk.h" namespace="Diligent" attach="true"/>
-	<include file="PipelineStateCacheVk.h" namespace="Diligent" attach="true"/>
-	<include file="PipelineStateVk.h" namespace="Diligent" attach="true"/>
-	<include file="QueryVk.h" namespace="Diligent" attach="true"/>
+	<!-- <include file="PipelineStateCacheVk.h" namespace="Diligent" attach="true"/> -->
+	<!-- <include file="PipelineStateVk.h" namespace="Diligent" attach="true"/> -->
+	<!-- <include file="QueryVk.h" namespace="Diligent" attach="true"/> -->
 	<include file="RenderDeviceVk.h" namespace="Diligent" attach="true"/>
-	<include file="RenderPassVk.h" namespace="Diligent" attach="true"/>
-	<include file="SamplerVk.h" namespace="Diligent" attach="true"/>
-	<include file="ShaderBindingTableVk.h" namespace="Diligent" attach="true"/>
-	<include file="ShaderResourceBindingVk.h" namespace="Diligent" attach="true"/>
-	<include file="ShaderVk.h" namespace="Diligent" attach="true"/>
-	<include file="SwapChainVk.h" namespace="Diligent" attach="true"/>
-	<include file="TextureViewVk.h" namespace="Diligent" attach="true"/>
-	<include file="TextureVk.h" namespace="Diligent" attach="true"/>
+	<!-- <include file="RenderPassVk.h" namespace="Diligent" attach="true"/> -->
+	<!-- <include file="SamplerVk.h" namespace="Diligent" attach="true"/> -->
+	<!-- <include file="ShaderBindingTableVk.h" namespace="Diligent" attach="true"/> -->
+	<!-- <include file="ShaderResourceBindingVk.h" namespace="Diligent" attach="true"/> -->
+	<!-- <include file="ShaderVk.h" namespace="Diligent" attach="true"/> -->
+	<!-- <include file="SwapChainVk.h" namespace="Diligent" attach="true"/> -->
+	<!-- <include file="TextureViewVk.h" namespace="Diligent" attach="true"/> -->
+	<!-- <include file="TextureVk.h" namespace="Diligent" attach="true"/> -->
 	<include file="TopLevelASVk.h" namespace="Diligent" attach="true"/>
 
 	<include-dir>$(THIS_CONFIG_PATH)/../GraphicsEngineOpenGL/interface/</include-dir>
