@@ -65,7 +65,6 @@
 	<include file="EngineFactoryD3D12.h" namespace="Diligent" attach="true"/>
 
 	<include-dir>$(THIS_CONFIG_PATH)/../GraphicsEngineVulkan/interface/</include-dir>
-	<include file="DeviceContextVk.h" namespace="Diligent" attach="true"/>
 	<include file="EngineFactoryVk.h" namespace="Diligent" attach="true"/>
 	<include file="RenderDeviceVk.h" namespace="Diligent" attach="true"/>
 
