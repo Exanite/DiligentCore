@@ -75,7 +75,7 @@
 	<include file="BufferVk.h" namespace="Diligent" attach="true"/>
 	<include file="CommandQueueVk.h" namespace="Diligent" attach="true"/>
 	<include file="DeviceContextVk.h" namespace="Diligent" attach="true"/>
-	<include file="DeviceMemoryVk.h" namespace="Diligent" attach="true"/>
+	<!-- <include file="DeviceMemoryVk.h" namespace="Diligent" attach="true"/> -->
 	<include file="EngineFactoryVk.h" namespace="Diligent" attach="true"/>
 	<include file="FenceVk.h" namespace="Diligent" attach="true"/>
 	<include file="FramebufferVk.h" namespace="Diligent" attach="true"/>
