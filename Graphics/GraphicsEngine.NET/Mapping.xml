@@ -68,9 +68,28 @@
 	<include file="vulkan/vulkan_core.h" attach="false"/>
 
 	<include-dir>$(THIS_CONFIG_PATH)/../GraphicsEngineVulkan/interface/</include-dir>
+	<include file="BottomLevelASVk.h" namespace="Diligent" attach="true"/>
+	<include file="BufferViewVk.h" namespace="Diligent" attach="true"/>
+	<include file="BufferVk.h" namespace="Diligent" attach="true"/>
 	<include file="CommandQueueVk.h" namespace="Diligent" attach="true"/>
+	<include file="DeviceContextVk.h" namespace="Diligent" attach="true"/>
+	<!-- <include file="DeviceMemoryVk.h" namespace="Diligent" attach="true"/> -->
 	<include file="EngineFactoryVk.h" namespace="Diligent" attach="true"/>
+	<include file="FenceVk.h" namespace="Diligent" attach="true"/>
+	<include file="FramebufferVk.h" namespace="Diligent" attach="true"/>
+	<!-- <include file="PipelineStateCacheVk.h" namespace="Diligent" attach="true"/> -->
+	<!-- <include file="PipelineStateVk.h" namespace="Diligent" attach="true"/> -->
+	<!-- <include file="QueryVk.h" namespace="Diligent" attach="true"/> -->
 	<include file="RenderDeviceVk.h" namespace="Diligent" attach="true"/>
+	<!-- <include file="RenderPassVk.h" namespace="Diligent" attach="true"/> -->
+	<!-- <include file="SamplerVk.h" namespace="Diligent" attach="true"/> -->
+	<!-- <include file="ShaderBindingTableVk.h" namespace="Diligent" attach="true"/> -->
+	<!-- <include file="ShaderResourceBindingVk.h" namespace="Diligent" attach="true"/> -->
+	<!-- <include file="ShaderVk.h" namespace="Diligent" attach="true"/> -->
+	<!-- <include file="SwapChainVk.h" namespace="Diligent" attach="true"/> -->
+	<!-- <include file="TextureViewVk.h" namespace="Diligent" attach="true"/> -->
+	<!-- <include file="TextureVk.h" namespace="Diligent" attach="true"/> -->
+	<include file="TopLevelASVk.h" namespace="Diligent" attach="true"/>
 
 	<include-dir>$(THIS_CONFIG_PATH)/../GraphicsEngineOpenGL/interface/</include-dir>
 	<include file="EngineFactoryOpenGL.h" namespace="Diligent" attach="true"/>
@@ -153,6 +172,11 @@
 		<bind from="VkMicromapEXT" to="ulong" />
 		<bind from="VkOpticalFlowSessionNV" to="ulong" />
 		<bind from="VkShaderEXT" to="ulong" />
+
+		<!--Other from vulkan_core.h-->
+		<!-- <bind from="VkDeviceAddress" to="ulong" /> -->
+		<bind from="VkAccessFlags" to="int" />
+		<bind from="VkImageLayout" to="int" />
 	</bindings>
 
 	<naming>
