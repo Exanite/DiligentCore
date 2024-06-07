@@ -386,6 +386,9 @@
 		<remove method="ICommandQueueVk::Submit"/>
 		<remove method="ICommandQueueVk::Present"/>
 		<remove method="ICommandQueueVk::BindSparse"/>
+
+		<!--Diligent::IShaderVk-->
+		<remove method="IShaderVk::GetSPIRV"/>
 	</mapping>
 
 </config>
