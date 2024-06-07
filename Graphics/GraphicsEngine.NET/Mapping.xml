@@ -97,6 +97,32 @@
 		<bind from="Vector4" to="System.Numerics.Vector4" />
 		<bind from="InstanceMatrix" to="System.Numerics.Matrix3x4" />
 		<bind from="IObject" to="Diligent.IObject" />
+
+        <bind from="VkBuffer" to="System.IntPtr" />
+        <bind from="VkImage" to="System.IntPtr" />
+        <bind from="VkInstance" to="System.IntPtr" />
+        <bind from="VkPhysicalDevice" to="System.IntPtr" />
+        <bind from="VkDevice" to="System.IntPtr" />
+        <bind from="VkQueue" to="System.IntPtr" />
+        <bind from="VkSemaphore" to="System.IntPtr" />
+        <bind from="VkCommandBuffer" to="System.IntPtr" />
+        <bind from="VkFence" to="System.IntPtr" />
+        <bind from="VkDeviceMemory" to="System.IntPtr" />
+        <bind from="VkEvent" to="System.IntPtr" />
+        <bind from="VkQueryPool" to="System.IntPtr" />
+        <bind from="VkBufferView" to="System.IntPtr" />
+        <bind from="VkImageView" to="System.IntPtr" />
+        <bind from="VkShaderModule" to="System.IntPtr" />
+        <bind from="VkPipelineCache" to="System.IntPtr" />
+        <bind from="VkPipelineLayout" to="System.IntPtr" />
+        <bind from="VkPipeline" to="System.IntPtr" />
+        <bind from="VkRenderPass" to="System.IntPtr" />
+        <bind from="VkDescriptorSetLayout" to="System.IntPtr" />
+        <bind from="VkSampler" to="System.IntPtr" />
+        <bind from="VkDescriptorSet" to="System.IntPtr" />
+        <bind from="VkDescriptorPool" to="System.IntPtr" />
+        <bind from="VkFramebuffer" to="System.IntPtr" />
+        <bind from="VkCommandPool" to="System.IntPtr" />
 	</bindings>
 
 	<naming>
