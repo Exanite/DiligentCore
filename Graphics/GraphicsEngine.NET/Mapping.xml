@@ -68,6 +68,7 @@
 	<include file="vulkan/vulkan_core.h" attach="false"/>
 
 	<include-dir>$(THIS_CONFIG_PATH)/../GraphicsEngineVulkan/interface/</include-dir>
+	<include file="CommandQueueVk.h" namespace="Diligent" attach="true"/>
 	<include file="EngineFactoryVk.h" namespace="Diligent" attach="true"/>
 	<include file="RenderDeviceVk.h" namespace="Diligent" attach="true"/>
 
@@ -327,6 +328,11 @@
 		<!--Diligent::IQuery-->
 		<map method="IQuery::GetData" visibility="private"/>
 		<map param="IQuery::GetData::pData" type="void" keep-pointers="true"/>
+
+        <!--Diligent::ICommandQueueVk-->
+		<remove method="ICommandQueueVk::Submit"/>
+		<remove method="ICommandQueueVk::Present"/>
+		<remove method="ICommandQueueVk::BindSparse"/>
 	</mapping>
 
 </config>
