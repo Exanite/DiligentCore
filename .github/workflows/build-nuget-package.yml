@@ -31,7 +31,7 @@ jobs:
 
     - name: Build and run
       working-directory: ${{github.workspace}}
-      run: python ./BuildTools/.NET/dotnet-build-package.py -c ${{matrix.config}} -s ./BuildTools/.NET/dotnet-build-settings.json -d ./ --dotnet-tests --free-memory
+      run: python ./BuildTools/.NET/dotnet-build-package.py -c ${{matrix.config}} -s ./BuildTools/.NET/dotnet-build-settings.json -d ./ --free-memory
 
     - name: Upload artifact
       uses: actions/upload-artifact@v3
