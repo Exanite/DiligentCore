@@ -120,14 +120,14 @@
 		<bind from="InstanceMatrix" to="System.Numerics.Matrix3x4" />
 		<bind from="IObject" to="Diligent.IObject" />
 
-		<!--VK_DEFINE_HANDLE-->
+		<!--vulkan_core.h - VK_DEFINE_HANDLE-->
 		<bind from="VkInstance" to="System.IntPtr" />
 		<bind from="VkPhysicalDevice" to="System.IntPtr" />
 		<bind from="VkDevice" to="System.IntPtr" />
 		<bind from="VkQueue" to="System.IntPtr" />
 		<bind from="VkCommandBuffer" to="System.IntPtr" />
 
-		<!--VK_DEFINE_NON_DISPATCHABLE_HANDLE-->
+		<!--vulkan_core.h - VK_DEFINE_NON_DISPATCHABLE_HANDLE-->
 		<bind from="VkBuffer" to="ulong" />
 		<bind from="VkImage" to="ulong" />
 		<bind from="VkSemaphore" to="ulong" />
@@ -173,10 +173,11 @@
 		<bind from="VkOpticalFlowSessionNV" to="ulong" />
 		<bind from="VkShaderEXT" to="ulong" />
 
-		<!--Other from vulkan_core.h-->
+		<!--vulkan_core.h - Other-->
 		<!-- <bind from="VkDeviceAddress" to="ulong" /> -->
 		<bind from="VkAccessFlags" to="int" />
 		<bind from="VkImageLayout" to="int" />
+		<bind from="VkDeviceSize" to="ulong" />
 	</bindings>
 
 	<naming>
